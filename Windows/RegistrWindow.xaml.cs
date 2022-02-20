@@ -11,28 +11,17 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using FitnesHelper.Windows;
 
 namespace FitnesHelper.Windows
 {
     /// <summary>
-    /// Логика взаимодействия для AuthWindow.xaml
+    /// Логика взаимодействия для RegistrWindow.xaml
     /// </summary>
-    public partial class AuthWindow : Window
+    public partial class RegistrWindow : Window
     {
-        public AuthWindow()
+        public RegistrWindow()
         {
             InitializeComponent();
-           
-            
-        }
-
-        private void Hyperlink_Click(object sender, RoutedEventArgs e)
-        {
-            RegistrWindow registrWindow = new RegistrWindow();
-            this.Hide();
-            registrWindow.ShowDialog();
-            this.Show();
         }
     }
 }
