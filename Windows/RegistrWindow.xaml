@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FitnesHelper.Windows"
         mc:Ignorable="d"
-        Title="RegistrWindow" Height="450" Width="800">
+        Title="RegistrWindow" Height="450" Width="800" >
     <Grid>
-        
+        <Button
+            Content="Hello"
+            />
+
     </Grid>
 </Window>
