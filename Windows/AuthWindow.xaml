@@ -1,0 +1,114 @@
+﻿<Window x:Class="FitnesHelper.Windows.AuthWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FitnesHelper.Windows"
+        mc:Ignorable="d"
+        Title="AuthWindow" Height="550" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="74*"/>
+            <ColumnDefinition Width="98*"/>
+            <ColumnDefinition Width="224*"/>
+            <ColumnDefinition Width="224*"/>
+            <ColumnDefinition Width="147*"/>
+            <ColumnDefinition Width="73*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="155*"/>
+            <RowDefinition Height="61*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="41*"/>
+            <RowDefinition Height="138*"/>
+            <RowDefinition Height="78*"/>
+        </Grid.RowDefinitions>
+
+        <Border
+            Background="#FF1B357C" Grid.ColumnSpan="6"
+            />
+        <StackPanel VerticalAlignment="Center" 
+                    Grid.Column="1" Grid.ColumnSpan="4" Margin="0,37,0,36" Height="72"
+                    >
+            <TextBlock
+            Text="Фитнес помощник"
+            Foreground="White"
+            FontSize="30"
+            HorizontalAlignment="Center"
+            />
+
+            <TextBlock
+
+            Text="Данная утилита отлично справляется не только с подсчетом калорий ,но и подборкой персональной диеты ,учетом физических нагрузок ,подобным анализом продуктов и не только"
+            TextAlignment="Center"
+            TextWrapping="Wrap"
+                Opacity="0.8"  
+            Foreground="White"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            />
+        </StackPanel>
+        <StackPanel
+            Grid.Row="1"
+            Grid.ColumnSpan="2"
+            HorizontalAlignment="Center" Grid.Column="2" Margin="114,0,112,0" Width="174" 
+           
+            >
+            <TextBlock
+            Text="Авторизуйтесь:"
+            Foreground="#FF1B357C"
+            FontSize="25"
+            HorizontalAlignment="Center"
+            />
+
+        </StackPanel>
+
+        <TextBlock
+            Text="Логин"
+                Grid.Row="2"
+                Grid.Column="2"
+            
+            Foreground="#FF1B357C"
+            FontSize="25"
+            HorizontalAlignment="Right" Width="70"
+            />
+        <TextBox
+            Text=""
+               Grid.Row="2"
+               Grid.Column="3"
+            Foreground="#FF1B357C"
+            BorderBrush="#FF1B357C"      
+            FontSize="25"
+            
+            Margin="10 0 0 0"
+            />
+
+
+        <TextBlock
+               Grid.Row="4"
+                Grid.Column="2"
+            Text="Пароль"
+            Foreground="#FF1B357C"
+            FontSize="25"
+            
+           HorizontalAlignment="Right"
+            VerticalAlignment="Top" Height="33" Width="86"
+            />
+        <TextBox
+               Grid.Row="4"
+                Grid.Column="3"
+            Text=""
+            Foreground="#FF1B357C"
+            BorderBrush="#FF1B357C"     
+            FontSize="25"
+            Margin="10 0 0 0"
+            />
+
+
+
+
+
+
+    </Grid>
+</Window>
